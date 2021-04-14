@@ -14273,7 +14273,7 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>PLEASE FILL IN THE FOLLOWING:</p>
 <ul>
-<li>Your name: Gia Bugieda (Partner: Megan Englert)</li>
+<li>Your name: Gia Bugieda, Megan Englert</li>
 <li>Link to the Github repo with this file <a href="https://github.com/gbugieda/regex-exercises">https://github.com/gbugieda/regex-exercises</a></li>
 </ul>
 
@@ -14281,7 +14281,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
@@ -15113,14 +15113,14 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[89]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">eqn1</span> <span class="o">=</span> <span class="s1">&#39;a+42//5-c&#39;</span>
 <span class="n">eqn2</span> <span class="o">=</span> <span class="s1">&#39;pressure*3+42/5-14256&#39;</span>
 <span class="n">eqn3</span> <span class="o">=</span> <span class="s1">&#39;r*42-5/3+42///5-42/53+a&#39;</span>
 <span class="c1">##### add your solution here for eqn1</span>
-<span class="k">assert</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;42//5&#39;</span><span class="p">,</span><span class="n">eqn1</span><span class="p">)</span> <span class="o">==</span> <span class="p">[</span><span class="s1">&#39;a+&#39;</span><span class="p">,</span> <span class="s1">&#39;-c&#39;</span><span class="p">]</span>
+<span class="k">assert</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;42..5&#39;</span><span class="p">,</span><span class="n">eqn1</span><span class="p">)</span> <span class="o">==</span> <span class="p">[</span><span class="s1">&#39;a+&#39;</span><span class="p">,</span> <span class="s1">&#39;-c&#39;</span><span class="p">]</span>
 <span class="c1">##### add your solution here for eqn2</span>
 <span class="k">assert</span> <span class="n">re</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;42/5&#39;</span><span class="p">,</span><span class="n">eqn2</span><span class="p">)</span> <span class="o">==</span> <span class="p">[</span><span class="s1">&#39;pressure*3+&#39;</span><span class="p">,</span> <span class="s1">&#39;-14256&#39;</span><span class="p">]</span>
 <span class="c1">##### add your solution here for eqn3</span>
